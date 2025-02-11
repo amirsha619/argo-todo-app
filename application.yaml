@@ -4,6 +4,7 @@ metadata:
   name: todo-app
   namespace: argocd
 spec:
+  project: default
   destination:
     namespace: default
     server: https://kubernetes.default.svc
